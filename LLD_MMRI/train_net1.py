@@ -40,8 +40,8 @@ parser.add_argument('--img_size', type=int,
                     default=128, help='input patch size of network input')  # 数据尺寸
 parser.add_argument('--seed', type=int,
                     default=1234, help='random seed')  # 随机种子？
-parser.add_argument('--vit_name', type=str,
-                    default='net1', help='select one vit model')  # 模型名称
+parser.add_argument('--model_name', type=str,
+                    default='net1', help='model name')  # 模型名称
 
 args = parser.parse_args(args=[])
 
@@ -154,7 +154,7 @@ if __name__ == "__main__":
     dataset_name = args.dataset
     args.is_pretrain = True
     args.exp = dataset_name + str(args.img_size)
-    lld_path = "model/" + args.vit_name
+    lld_path = "model/" + args.model_name
 
     if not os.path.exists(lld_path):
         os.makedirs(lld_path)

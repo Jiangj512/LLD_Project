@@ -1,4 +1,4 @@
-[02:39:29.379] Namespace(base_lr=0.0001, batch_size=8, dataset='LLD', deterministic=1, epochs=500, exp='Lits128', img_size=128, is_pretrain=True, lld_dir='./lld/lld_mmri', max_iterations=10000, n_gpu=1, num_classes=7, root_path='../LLD-MMRI2023/data', seed=1234, vit_name='net2')
+[02:39:29.379] Namespace(base_lr=0.0001, batch_size=8, dataset='LLD', deterministic=1, epochs=500, exp='Lits128', img_size=128, is_pretrain=True, lld_dir='./lld/lld_mmri', max_iterations=10000, n_gpu=1, num_classes=7, root_path='../LLD-MMRI2023/data', seed=1234, model_name='net2')
 [02:39:33.230] 500 iterations per epoch. 250000 max iterations 
 [02:42:07.064] iteration 0 : loss : 1.570788
 [02:42:17.017] val_log 0 : loss : 1.611437  acc : 0.400641

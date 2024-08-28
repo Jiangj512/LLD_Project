@@ -1,6 +1,6 @@
 # LLD_Project: Source code and dataset for LLD-MMRI2023
 
-## The network structure figure will be added to that link. However, considering that article has not been published yet, the figure will be uploaded when it is published.
+## The network figure will be added to that link. However, considering that article has not been published yet, the figure will be uploaded when it is published.
 
 ## LLD-MMRI2023:
 
